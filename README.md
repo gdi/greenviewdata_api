@@ -336,19 +336,25 @@ Since this API call is open to the public, creating a client is a two step proce
 			    "monthly_cost": 220.50,
 			    "quantity": 20,
 			    "product": "SpamStopsHere Mailbox",
-			    "options": ["Enterprise", "Anti-Virus"]
+			    "options": ["Enterprise", "Anti-Virus"],
+			    "billing_interval":1,
+			    "next_bill_date":"06/01/13"
 			  }, 
 			  {
 			    "monthly_cost": 77.50,
 			    "quantity": 1,
 			    "product": "SpamStopsHere Domain",
-			    "options": ["Enterprise", "Anti-Virus"]
+			    "options": ["Enterprise", "Anti-Virus"],
+			    "billing_interval":1,
+			    "next_bill_date":"06/01/13"
 			  }, 
 			  {
 			    "monthly_cost": 140.0,
 			    "quantity": 20,
 			    "product": "RestorEmail Continuity Mailbox",
-			    "options": []
+			    "options": [],
+			    "billing_interval":12,
+			    "next_bill_date":"04/01/14"
 			  }
 			]
 		}
