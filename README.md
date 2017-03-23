@@ -173,6 +173,9 @@ Since this API call is open to the public, creating a client is a two step proce
 			"user_count": 1,
 			"email_address": "phil@greenviewdata.com",
 			"name": "Test Customer",
+      "phone": "555-555-5555",
+      "first_name": "First",
+      "last_name": "Last", 
 			"domains": [
 				{
 					"name": "customer-domain.test",
